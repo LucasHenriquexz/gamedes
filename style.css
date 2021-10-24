@@ -1,0 +1,60 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #313131;
+}
+
+main{
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+}
+
+.menu-principal{
+    width: 100%;
+    height: 200px;
+    background-color: #1f1f1f;
+}
+
+.logo{
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;  
+    padding-bottom: 2px;
+    width: 100%;
+}
+
+.logo img{
+    height: 121px;
+    width: 915px;
+}
+
+.header{
+    background-color: #1f1f1f;
+    width: 100%;
+}
+
+.nav-bar{
+    font-size: 20px;
+    font-family: Verdana;
+}
+.nav-bar a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(204, 204, 204);
+}
+.nav-bar a:hover{
+    color: rgb(179, 30, 30);
+    border-bottom: 1px solid rgb(179, 30, 30);
+    
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
