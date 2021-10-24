@@ -1,0 +1,13 @@
+body{
+    width: auto;
+    height: auto;
+}
+
+.main{
+    background: rgb(31, 31, 31);
+}
+
+.logo{
+    display: flex;
+    height: 60px;
+}
