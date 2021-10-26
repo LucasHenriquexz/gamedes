@@ -15,21 +15,17 @@ main{
 
 .menu-principal{
     width: 100%;
-    height: 200px;
+    height: 120px;
     background-color: #1f1f1f;
 }
 
 .logo{
     margin: 0 auto;
     display: flex;
-    padding: 10px;  
+    padding: 10px;
+    margin-left: 40px;  
     padding-bottom: 2px;
     width: 100%;
-}
-
-.logo img{
-    height: 121px;
-    width: 915px;
 }
 
 .header{
@@ -38,10 +34,11 @@ main{
 }
 
 .nav-bar{
-    font-size: 20px;
+    font-size: 14px;
     font-family: Verdana;
 }
 .nav-bar a{
+    padding: 10pX;
     text-decoration: none;
     display: inline-block;
     color: rgb(204, 204, 204);
@@ -54,7 +51,10 @@ main{
 .nav-bar ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
     align-items: center;
+}
+
+.redes-sociais ul li{
+    list-style: none;
 }
