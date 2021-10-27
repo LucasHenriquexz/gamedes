@@ -1,5 +1,9 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+/*font-family: 'Varela Round', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Varela+Round&display=swap');
+/*font-family: 'Contrail One', cursive;*/
+
 
 body{
     height: 100%;
@@ -17,30 +21,34 @@ main{
     width: 100%;
     height: 120px;
     background-color: #1f1f1f;
+
 }
 
 .logo{
-    margin: 0 auto;
     display: flex;
-    padding: 10px;
-    margin-left: 40px;  
-    padding-bottom: 2px;
-    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .header{
     background-color: #1f1f1f;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
     width: 100%;
 }
 
 .nav-bar{
-    font-size: 14px;
-    font-family: Verdana;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    align-items: center;
 }
 .nav-bar a{
-    padding: 10pX;
+    margin-top: 10px;
+    margin-right: 10px;
     text-decoration: none;
     display: inline-block;
+    align-items: center;
     color: rgb(204, 204, 204);
 }
 .nav-bar a:hover{
@@ -50,11 +58,19 @@ main{
 }
 .nav-bar ul li{
     list-style: none;
-    display: inline-block;
     margin-right: 5px;
-    align-items: center;
+    display: inline-block;
 }
 
 .redes-sociais ul li{
     list-style: none;
+    display: inline-flex;
+    float: right;
+    padding: 10px;
+    
+}
+
+.redes-sociais img{
+    height: 40px;
+    width: 40px;
 }
